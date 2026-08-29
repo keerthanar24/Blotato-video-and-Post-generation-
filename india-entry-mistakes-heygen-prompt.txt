@@ -1,0 +1,52 @@
+Create a 30-second vertical 9:16 social Reel (1080x1920) for Instagram Reels.
+
+STYLE: Photorealistic cinematic B-roll. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Fast social-media pacing with hard cuts. No avatar and no presenter on screen - voiceover only, over footage. Burned-in captions: all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the Reels interface.
+
+VOICE: Indian English, female, warm and conversational, speed 0.95x.
+
+STORY: Follow one shipment of product from a global brand entering India. It is a good product that never reaches a single customer - stopped in turn by a one-size plan, a customs hold, a dead listing, costs, and nobody on the ground. The visual arc runs from a cold, dark, motionless warehouse at the start to a warm, brightly lit, fully moving warehouse at the end. Keep the SAME warehouse and the SAME brown cartons in every scene.
+
+Build exactly 8 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "Nothing was wrong with the product."
+Caption: NOTHING WAS WRONG / WITH THE PRODUCT.
+Visual: Start on a beautiful hero shot of a premium consumer product, warm rim light, glossy and perfect. Fast pull-back reveals it sitting on top of hundreds of sealed brown cartons in a dark, silent warehouse. Dust hanging in a single shaft of light.
+
+SCENE 2 - 3.0s
+Voiceover: "It just never reached anyone."
+Caption: IT NEVER / REACHED ANYONE.
+Visual: Long aisle of stacked sealed cartons under one flickering overhead light. An idle forklift. No people. Cold blue-grey light, absolute stillness, slow drift forward.
+
+SCENE 3 - 4.5s
+Voiceover: "One plan. For a country that isn't one market."
+Caption: ONE PLAN. / NOT ONE MARKET.
+Visual: Three fast cuts of completely different Indian retail worlds: a Mumbai high-rise doorstep delivery, a crowded Jaipur street market, a small Kerala town shopfront in monsoon light. The same brown carton appears in each. Handheld, documentary.
+
+SCENE 4 - 4.5s
+Voiceover: "Then customs found a label that wasn't compliant."
+Caption: THEN CUSTOMS / STOPPED IT.
+Visual: Extreme macro, tense and cool-lit: a rubber stamp coming down hard on a document; a gloved hand rotating a carton to inspect its label; a strip of tape being sealed across a box. Shallow focus, no readable text.
+
+SCENE 5 - 4.0s
+Voiceover: "By the time it listed, no one was looking for it."
+Caption: LISTED. / AND INVISIBLE.
+Visual: A phone screen glowing in a dark room showing a bare product listing, soft-focus and unreadable. The glow is the only light. Nobody scrolls. Static, lonely, held.
+
+SCENE 6 - 4.0s
+Voiceover: "Fees, storage and returns took the rest."
+Caption: FEES. STORAGE. / RETURNS.
+Visual: Cartons coming back the wrong way - a growing return pile, tape being cut open, a worker restacking opened boxes onto a shelf that is already full. Cold fluorescent light, sense of reversal.
+
+SCENE 7 - 3.0s
+Voiceover: "And no one here was watching."
+Caption: NO ONE / WAS WATCHING.
+Visual: An empty office chair in front of dark monitors at night. One dashboard screen glows with nobody in front of it. Completely still.
+
+SCENE 8 - 3.5s
+Voiceover: "India isn't a market you enter. It's a market you operate in."
+Caption: INDIA ISN'T A MARKET / YOU ENTER. / IT'S ONE YOU OPERATE IN.
+Visual: The same warehouse from scene 2, but the overhead lights snap on in sequence down the long aisle. It is suddenly alive: people moving, barcode scanners flashing, cartons flowing out through open loading doors into warm daylight. Full reversal of the opening.
+End card fades up over the final 2 seconds: VALUECART - Before entering India, assess your readiness.
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep all screens, labels and documents soft-focus. Every on-screen word comes from the burned-in captions only.
