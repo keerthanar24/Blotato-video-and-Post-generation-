@@ -1,0 +1,752 @@
+<title>Scroll-to-Buy Reel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --ground:   #ECEEF1;
+    --surface:  #FFFFFF;
+    --sunken:   #E3E6EA;
+    --ink:      #15181E;
+    --ink-2:    #59616D;
+    --ink-3:    #838B97;
+    --rule:     #D3D8DE;
+    --blue:     #2B6CB8;
+    --amber:    #A85F0B;
+    --focus:    #2B6CB8;
+
+    --f-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+    --f-body:    "Newsreader", Georgia, "Times New Roman", serif;
+    --f-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    --max: 1080px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:  #0D1015;
+      --surface: #161A21;
+      --sunken:  #11151B;
+      --ink:     #E4E7EC;
+      --ink-2:   #99A1AE;
+      --ink-3:   #6E7683;
+      --rule:    #262C36;
+      --blue:    #6BA6E8;
+      --amber:   #E29A4A;
+      --focus:   #6BA6E8;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:  #0D1015;
+    --surface: #161A21;
+    --sunken:  #11151B;
+    --ink:     #E4E7EC;
+    --ink-2:   #99A1AE;
+    --ink-3:   #6E7683;
+    --rule:    #262C36;
+    --blue:    #6BA6E8;
+    --amber:   #E29A4A;
+    --focus:   #6BA6E8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 56px 28px 96px;
+  }
+
+  /* ---------- header ---------- */
+
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .masthead { display: flex; flex-direction: column; gap: 20px; }
+
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 800;
+    font-size: clamp(38px, 6.4vw, 66px);
+    line-height: .98;
+    letter-spacing: -.028em;
+    text-wrap: balance;
+    margin: 0;
+    max-width: 15ch;
+  }
+
+  h1 .warm { color: var(--amber); }
+
+  .deck {
+    font-size: clamp(18px, 2.3vw, 22px);
+    line-height: 1.45;
+    color: var(--ink-2);
+    max-width: 54ch;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+
+  .chip {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 6px 10px;
+  }
+
+  .chip.lead { color: var(--amber); border-color: color-mix(in oklab, var(--amber), transparent 62%); }
+
+  /* ---------- sections ---------- */
+
+  section { margin-top: 68px; }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 28px;
+  }
+
+  h2 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(21px, 2.7vw, 27px);
+    letter-spacing: -.018em;
+    margin: 0;
+  }
+
+  .sec-note {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    letter-spacing: .04em;
+    color: var(--ink-3);
+    margin-left: auto;
+    text-align: right;
+  }
+
+  /* ---------- setup grid ---------- */
+
+  .setup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .setup > div {
+    background: var(--surface);
+    padding: 18px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .setup dt {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .setup dd {
+    margin: 0;
+    font-family: var(--f-display);
+    font-weight: 500;
+    font-size: 16.5px;
+    line-height: 1.35;
+    letter-spacing: -.008em;
+  }
+
+  .setup p {
+    margin: 0;
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+
+  /* ---------- scenes ---------- */
+
+  .scenes { position: relative; display: flex; flex-direction: column; gap: 30px; }
+
+  .scenes::before {
+    content: "";
+    position: absolute;
+    left: 110px;
+    top: 12px;
+    bottom: 12px;
+    width: 2px;
+    transform: translateX(-1px);
+    background: linear-gradient(to bottom, var(--blue), var(--amber));
+    opacity: .55;
+  }
+
+  .scene {
+    display: grid;
+    grid-template-columns: 96px 28px minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .tc {
+    text-align: right;
+    padding-right: 16px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .tc b {
+    font-family: var(--f-mono);
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.01em;
+    color: var(--ink);
+  }
+
+  .tc span {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-3);
+  }
+
+  .rail { display: flex; justify-content: center; padding-top: 5px; }
+
+  .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--blue), var(--amber) var(--mix, 0%));
+    box-shadow: 0 0 0 4px var(--ground);
+    position: relative;
+    z-index: 1;
+  }
+
+  .body { padding-left: 22px; display: flex; flex-direction: column; gap: 14px; }
+
+  .role {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: color-mix(in oklab, var(--blue), var(--amber) var(--mix, 0%));
+  }
+
+  .vo {
+    font-family: var(--f-body);
+    font-size: clamp(21px, 2.9vw, 27px);
+    line-height: 1.3;
+    letter-spacing: -.012em;
+    margin: 0;
+    text-wrap: pretty;
+    max-width: 32ch;
+  }
+
+  .vo em { font-style: italic; color: var(--ink-2); }
+
+  .pair {
+    display: grid;
+    grid-template-columns: minmax(0, 168px) minmax(0, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .pair > div { background: var(--surface); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+
+  .pair h3 {
+    font-family: var(--f-mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0;
+  }
+
+  .cap {
+    font-family: var(--f-display);
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .cap span { display: block; }
+
+  .viz { font-size: 14.5px; line-height: 1.52; color: var(--ink-2); margin: 0; text-wrap: pretty; }
+
+  /* ---------- copy block ---------- */
+
+  .block {
+    background: var(--sunken);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .block ol { margin: 0; padding-left: 24px; display: flex; flex-direction: column; gap: 11px; }
+
+  .block li { font-size: 18px; line-height: 1.42; text-wrap: pretty; }
+
+  .block li::marker { font-family: var(--f-mono); font-size: 12px; color: var(--ink-3); }
+
+  .blk-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    padding-top: 14px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    letter-spacing: .04em;
+    color: var(--ink-3);
+  }
+
+  button.copy {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ground);
+    background: var(--ink);
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  button.copy:hover { background: var(--amber); }
+  button.copy:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  /* ---------- end card ---------- */
+
+  .endcard {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface);
+    padding: 30px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .endcard .brand {
+    font-family: var(--f-display);
+    font-weight: 800;
+    font-size: clamp(26px, 4.4vw, 38px);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .endcard .line {
+    font-family: var(--f-body);
+    font-style: italic;
+    font-size: clamp(17px, 2.3vw, 21px);
+    color: var(--amber);
+    margin: 0;
+  }
+
+  /* ---------- watch-outs ---------- */
+
+  .outs { display: flex; flex-direction: column; gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+
+  .outs > div { background: var(--surface); padding: 17px 20px; display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 14px; align-items: start; }
+
+  .outs .n {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--amber);
+    padding-top: 3px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .outs p { margin: 0; font-size: 15.5px; line-height: 1.55; text-wrap: pretty; }
+
+  .outs strong { font-family: var(--f-display); font-weight: 700; letter-spacing: -.005em; }
+
+  footer {
+    margin-top: 72px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+  }
+
+  @media (max-width: 720px) {
+    .wrap { padding: 40px 18px 72px; }
+    .scenes::before { display: none; }
+    .scene { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+    .tc { flex-direction: row; align-items: baseline; gap: 10px; text-align: left; padding-right: 0; }
+    .rail { display: none; }
+    .body { padding-left: 0; }
+    .pair { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Valuecart &nbsp;/&nbsp; HeyGen production script</p>
+    <h1>Search Is Where It <span class="warm">Ends</span></h1>
+    <p class="deck">A 30-second vertical Reel that follows one shopper and one bottle through
+      a discovery-led purchase — and lands the search bar exactly where it now belongs: last.</p>
+    <div class="chips">
+      <span class="chip lead">0:30 runtime</span>
+      <span class="chip">9:16 &middot; 1080&times;1920</span>
+      <span class="chip">8 scenes</span>
+      <span class="chip">58 spoken words</span>
+      <span class="chip">Voiceover-led</span>
+      <span class="chip">Burned-in captions</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>Build settings</h2>
+      <p class="sec-note">Set these before you paste the script</p>
+    </div>
+    <div class="setup">
+      <div>
+        <dt>Format</dt>
+        <dd>Voiceover over B-roll — no avatar on screen</dd>
+        <p>The brief asks for photorealistic cinematic footage. An avatar in frame competes with it. If you need a face for brand trust, put one in scene 8 only.</p>
+      </div>
+      <div>
+        <dt>Voice</dt>
+        <dd>Indian English, female, conversational</dd>
+        <p>Speed ~0.95&times;. Pick warmth over polish — this is a story about one person, not an announcement.</p>
+      </div>
+      <div>
+        <dt>Pacing</dt>
+        <dd>One HeyGen scene per row below</dd>
+        <p>Eight separate scenes, not one continuous read. The scene breaks buy the ~7 seconds of silence that make 58 words fill 30.</p>
+      </div>
+      <div>
+        <dt>Captions</dt>
+        <dd>On, burned in, all caps</dd>
+        <p>Heavy sans (Montserrat ExtraBold or Archivo Black), white on a soft dark plate, 2–4 words per card.</p>
+      </div>
+      <div>
+        <dt>Safe area</dt>
+        <dd>Captions between 20% and 75% frame height</dd>
+        <p>Clears the Reels top bar, the bottom caption strip, and the right-hand icon column.</p>
+      </div>
+      <div>
+        <dt>Continuity</dt>
+        <dd>One woman, one amber bottle, all 8 scenes</dd>
+        <p>That repetition is the argument. If the product changes between scenes, the story stops meaning anything.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Scene by scene</h2>
+      <p class="sec-note">Cold screen-glow &rarr; warm daylight</p>
+    </div>
+
+    <div class="scenes">
+
+      <article class="scene" style="--mix: 0%">
+        <div class="tc"><b>0:00</b><span>3.0s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Hook</p>
+          <p class="vo">She never searched for this brand.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>She never</span><span>searched.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Extreme macro on a young Indian woman's eye in a dark bedroom, lit only by phone glow. A feed races across her iris as a blur of light — then stops dead on a single amber glass serum bottle. Anamorphic bokeh, fine grain, slow push-in.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 14%">
+        <div class="tc"><b>0:03</b><span>2.5s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Setup</p>
+          <p class="vo">She just scrolled.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>She just</span><span>scrolled.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Thumb-scroll POV, vertical. The feed smears upward into a river of light. Hyper-speed, heavy motion blur, cold screen cast on the fingertip.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 28%">
+        <div class="tc"><b>0:05.5</b><span>4.5s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">The three touches</p>
+          <p class="vo">A reel. A review. A price she half-remembered.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>A reel.</span><span>A review.</span><span>A price.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Three hard cuts, ~1.5s each, on the beat of the line: a short-video thumbnail of the bottle; a wall of five-star ratings; a price on a category page. Macro on glass, shallow focus throughout.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 42%">
+        <div class="tc"><b>0:10</b><span>5.0s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Repetition</p>
+          <p class="vo">Day after day, the feed kept handing her the same bottle.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>The same bottle</span><span>again and again</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">The same woman in three light states — golden morning through curtains, flat afternoon on a commuter train, blue night in bed. The same amber bottle passes on screen each time. Days compressing.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 56%">
+        <div class="tc"><b>0:15</b><span>4.0s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Turn</p>
+          <p class="vo">And when she finally opened the search bar&hellip;</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>Then she</span><span>searched.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Extreme macro. A thumb taps. A cursor blinks in an empty field. Letters begin to appear — decisive, no hesitation. Warm light starts creeping in from the left.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 70%">
+        <div class="tc"><b>0:19</b><span>2.5s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Reveal</p>
+          <p class="vo">&hellip;she wasn't discovering anything.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>She wasn't</span><span>discovering.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Hold on the field. Autocomplete has already filled in the exact brand name. Slight slow-motion on the blink of the cursor.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 84%">
+        <div class="tc"><b>0:21.5</b><span>2.5s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">Payoff</p>
+          <p class="vo">She was confirming it.</p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>She was</span><span>confirming.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">Cut to a parcel on a sunlit apartment floor in India. Hands lift the flap; the amber bottle catches gold light. Dust in the air, window-grille shadows across the floor.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="scene" style="--mix: 100%">
+        <div class="tc"><b>0:24</b><span>6.0s</span></div>
+        <div class="rail"><i class="dot"></i></div>
+        <div class="body">
+          <p class="role">The insight</p>
+          <p class="vo">In India, search isn't where buying begins. <em>It's where it ends.</em></p>
+          <div class="pair">
+            <div>
+              <h3>Caption</h3>
+              <p class="cap"><span>Search isn't where</span><span>buying begins.</span><span>It's where it ends.</span></p>
+            </div>
+            <div>
+              <h3>Visual</h3>
+              <p class="viz">The bottle settles in her hand in warm daylight. The push-in slows and holds. End card fades up over the final 3 seconds.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Voiceover, clean</h2>
+      <p class="sec-note">One line per HeyGen scene</p>
+    </div>
+    <div class="block">
+      <ol id="vo-list">
+        <li>She never searched for this brand.</li>
+        <li>She just scrolled.</li>
+        <li>A reel. A review. A price she half-remembered.</li>
+        <li>Day after day, the feed kept handing her the same bottle.</li>
+        <li>And when she finally opened the search bar…</li>
+        <li>…she wasn't discovering anything.</li>
+        <li>She was confirming it.</li>
+        <li>In India, search isn't where buying begins. It's where it ends.</li>
+      </ol>
+      <div class="blk-foot">
+        <span>58 words &middot; ~23s spoken &middot; ~7s of air</span>
+        <button class="copy" id="copy-vo" type="button">Copy script</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>End card</h2>
+      <p class="sec-note">0:27–0:30, over the final shot</p>
+    </div>
+    <div class="endcard">
+      <p class="brand">Valuecart</p>
+      <p class="line">Be discovered before you're searched.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Watch-outs</h2>
+      <p class="sec-note">Where this one breaks</p>
+    </div>
+    <div class="outs">
+      <div>
+        <span class="n">01</span>
+        <p><strong>Never let generated B-roll render readable text.</strong> Search bars, review counts and price tags come back as convincing gibberish. Keep every screen soft-focus and let your burned-in captions carry the words — that is also why the captions are doing real narrative work here, not just accessibility.</p>
+      </div>
+      <div>
+        <span class="n">02</span>
+        <p><strong>Scenes 5 and 6 are one sentence split across a cut.</strong> The ellipses matter. If the voice lands a full stop at the end of scene 5, the reveal in scene 6 stops being a reveal.</p>
+      </div>
+      <div>
+        <span class="n">03</span>
+        <p><strong>The brand speaks once.</strong> Everything before 0:24 is the shopper's story. Moving the Valuecart message earlier turns a story into an ad and costs you the retention.</p>
+      </div>
+      <div>
+        <span class="n">04</span>
+        <p><strong>Check the hook on mute.</strong> Most people meet scene 1 with no sound. The freeze on the bottle at ~0:02 has to read as a surprise on its own.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Valuecart</span>
+    <span>India Is Moving From Search-to-Buy to Scroll-to-Buy</span>
+    <span>Reel 04</span>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById("copy-vo");
+    var list = document.getElementById("vo-list");
+    if (!btn || !list) return;
+
+    btn.addEventListener("click", function () {
+      var lines = Array.prototype.map.call(list.querySelectorAll("li"), function (li) {
+        return li.textContent.trim();
+      });
+      var text = lines.join("\n\n");
+      var done = function (ok) {
+        btn.textContent = ok ? "Copied" : "Copy failed";
+        setTimeout(function () { btn.textContent = "Copy script"; }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+      } else {
+        done(false);
+      }
+    });
+  })();
+</script>
