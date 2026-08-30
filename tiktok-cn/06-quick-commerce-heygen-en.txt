@@ -1,0 +1,75 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands entering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. The first four scenes are almost wordless - let the cutting carry them.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Warm, contemporary, urban India. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Show many categories and many plain unbranded parcels. Never feature one specific product or brand.
+
+CORE VISUAL IDEA - THE GAP THAT DISAPPEARS: Two shots recur throughout the opening - a thumb tapping a phone, and a hand receiving a bag at a door. They are always framed identically. Each time they repeat, the gap between them is shorter, until in Scene 4 there is no cut between them at all.
+
+SIGNATURE TRANSITION: Accelerating match cuts. Scenes 1 to 3 use the SAME two framings each time, cut tighter on every repetition. Scene 4 replaces the cut with one continuous whip pan - the gap is gone. From Scene 5 onward the film opens out and settles into ordinary, unhurried cutting, which should feel like a release after the compression.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "Watch how short this gets."
+Caption: WATCH THE GAP.
+Visual: Macro on a thumb tapping a phone screen. Hard match cut to a hand receiving a paper bag at an apartment door. Two shots, identical energy and framing. Warm afternoon light.
+
+SCENE 2 - 3.0s
+Voiceover: "Order. Doorbell."
+Caption: ORDER. / DOORBELL.
+Visual: The same two shots again, same framing, but the cut between them lands noticeably faster. A different Indian home, same rhythm.
+Transition: Tighter match cut than Scene 1.
+
+SCENE 3 - 3.0s
+Voiceover: "Order. Doorbell."
+Caption: FASTER.
+Visual: The same two shots a third time, faster still - they almost overlap. A third home, a third city.
+Transition: Tighter again. The compression should now feel almost uncomfortable.
+
+SCENE 4 - 3.0s
+Voiceover: "Until there's almost nothing in between."
+Caption: ALMOST / NO GAP.
+Visual: The tap and the doorbell now happen inside a single frame - one continuous whip pan from the phone in her hand to the door opening. No cut at all.
+Transition: The cut disappears entirely. That absence is the point of the whole opening.
+
+SCENE 5 - 3.5s
+Voiceover: "This is quick commerce in India."
+Caption: QUICK COMMERCE.
+Visual: Pull back to the first wide shot of the film - an Indian city at full speed. Riders threading through traffic, dark stores lit from within, bags moving hand to hand, a whole system in motion. Energetic and warm.
+
+SCENE 6 - 3.5s
+Voiceover: "But it didn't only change groceries."
+Caption: NOT JUST / GROCERIES.
+Visual: The same woman, now shopping a completely different category on her phone - headphones, a kettle, a shirt. Calm, ordinary, unhurried. A quiet room.
+Transition: A hard tonal shift from the city's speed to domestic stillness.
+
+SCENE 7 - 4.0s
+Voiceover: "It changed what she expects from everything."
+Caption: IT CHANGED / EVERYTHING ELSE.
+Visual: A quick series of different categories passing on her screen, all soft-focus - electronics, apparel, home, beauty. Her expression is identical in every one: expectant, relaxed, assuming it will simply work.
+
+SCENE 8 - 4.0s
+Voiceover: "Easy to find. In stock. Priced clearly. No friction."
+Caption: FINDABLE / IN STOCK / CLEAR / EASY
+Visual: Four fast beats, one per phrase - a product surfacing cleanly on a screen, a fully stocked shelf, a clean price area, a parcel sliding into a waiting hand. Rhythmic, landing exactly on each phrase. All screens soft-focus.
+
+SCENE 9 - 3.5s
+Voiceover: "She won't say any of that out loud."
+Caption: SHE WON'T / SAY IT.
+Visual: She simply closes the app and sets the phone face-down on a table. Completely ordinary, undramatic. The quietest moment in the film.
+
+SCENE 10 - 4.0s
+Voiceover: "She'll just buy from whoever meets it."
+Caption: SHE'LL JUST / BUY ELSEWHERE.
+Visual: A plain unbranded parcel arrives at her door and is taken inside. We never see whose it is. Someone met the standard - it was not automatic who.
+
+SCENE 11 - 5.0s
+Voiceover: "Quick commerce isn't your competitor. It's your customer's baseline."
+Caption: NOT YOUR COMPETITOR. / YOUR NEW BASELINE.
+Visual: Wide golden-hour shot of the Indian city - riders, parcels, storefronts, everything flowing. A warm horizon line of light sits noticeably higher in the frame than in any earlier shot. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - India's expectations moved. Move with them.
+
+IMPORTANT: Do not render any readable text, prices, user interface, logos or watermarks inside the generated footage. Keep every screen, label and price soft-focus and abstract, and keep every parcel unbranded. All on-screen words come from the burned-in captions only.
