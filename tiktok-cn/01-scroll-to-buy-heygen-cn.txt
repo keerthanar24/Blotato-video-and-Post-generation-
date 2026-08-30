@@ -1,0 +1,81 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at Chinese cross-border e-commerce sellers.
+
+LANGUAGE: All voiceover and all on-screen captions in Simplified Chinese (Mandarin). Use a caption font that fully supports Simplified Chinese, such as Noto Sans SC or Source Han Sans, heavy weight.
+
+VOICE: Mandarin Chinese, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.9x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic B-roll of modern India. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Warm, vibrant, premium documentary look. No avatar and no presenter on screen - voiceover only over footage. Burned-in Chinese captions, bold, 4-8 characters per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific hero product. Show many different people, many different categories, many different Indian settings. The subject is the behaviour, not an item.
+
+SIGNATURE TRANSITION: The whole video is cut like a feed. Unless stated otherwise, every scene transitions by the entire frame sliding UPWARD out of view as the next scene slides up into place, matched to a thumb swipe. This is the film's core visual idea - the viewer is being scrolled through the story. The scrolling stops completely and permanently at Scene 8.
+
+Build exactly 11 scenes. Use the Chinese voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "他们不是在找你的产品。"
+Caption: 他们不是在找你
+Visual: Extreme close-up of an Indian woman's thumb flicking upward on a phone in a bright Mumbai cafe. The screen is a blur of moving colour. Warm afternoon light through a window, shallow depth of field.
+Transition out: The whole frame scrolls upward with her swipe.
+
+SCENE 2 - 2.5s
+Voiceover: "他们只是在刷。"
+Caption: 他们只是在刷
+Visual: Fast montage of four completely different people scrolling in four places - a young man on a Delhi metro, a woman in a Bengaluru office lift, a student on a Chennai rooftop at dusk, an older shopkeeper behind his counter. Every thumb moving upward in the same rhythm.
+Transition: Each person scroll-wipes upward into the next, about 0.6s each.
+
+SCENE 3 - 3.5s
+Voiceover: "但决定，就发生在这一刷之间。"
+Caption: 决定就在这一刷之间
+Visual: Extreme slow motion on a single thumb swipe. Screen light sweeps across a face. Time almost stops. Dust and skin detail visible.
+Transition in: Hard cut from the fast montage straight into extreme slow motion - the speed contrast is the transition.
+
+SCENE 4 - 3.5s
+Voiceover: "一个短视频。一条评价。一个价格。"
+Caption: 短视频 / 评价 / 价格
+Visual: Three macro shots of a phone screen, all deliberately soft-focus and unreadable: a vertical video playing; a row of star ratings; a price area. About 1.2s each.
+Transition: Upward scroll-wipe between each, snapping on the beat of the line.
+
+SCENE 5 - 3.0s
+Voiceover: "他们记住了，却没有去搜索。"
+Caption: 记住了 但没搜索
+Visual: The phone screen goes dark. A face lit only by the fading glow, then darkness. She sets the phone face-down.
+Transition out: The screen dims to black; the next scene fades up from black.
+
+SCENE 6 - 3.0s
+Voiceover: "过几天，同样的东西又出现了。"
+Caption: 几天后 又刷到了
+Visual: The same feed reappearing across changing light as days pass - morning window light, midday street glare, evening lamp, blue night in bed. The same upward scroll motion in every one.
+Transition: Cross-dissolve on the scroll motion so a single swipe carries through all four light changes.
+
+SCENE 7 - 3.0s
+Voiceover: "一次，又一次。"
+Caption: 一次 又一次
+Visual: The same upward swipe repeated five times, faster each time, a different hand and a different place each time.
+Transition: Hard, fast jump cuts, accelerating.
+
+SCENE 8 - 3.5s
+Voiceover: "等他们终于打开搜索框——"
+Caption: 直到打开搜索框
+Visual: Extreme macro. A thumb taps. A cursor blinks in an empty field. Everything goes completely quiet and still. Warm light from the left.
+Transition: ALL motion stops abruptly. No scroll. The film holds still for the first time. From here on there is no scrolling transition.
+
+SCENE 9 - 3.0s
+Voiceover: "他们早就决定好了。"
+Caption: 他们早就决定了
+Visual: The screen light warms and blooms across her face. A small, certain smile. She taps once, decisively.
+Transition out: The light blooms and overexposes the frame to pure white.
+
+SCENE 10 - 5.5s
+Voiceover: "所以在印度，图片、评价、价格、广告位，决定你会不会被刷到。"
+Caption: 图片 评价 价格 广告位
+Visual: Out of the white bloom, a dense grid of many different marketplace-style product tiles builds across the frame - many categories, many price points, no single product favoured - until it becomes a living wall of commerce. Tiles pop in rhythmically on the beat.
+Transition: From pure white, tiles snap in on the beat.
+
+SCENE 11 - 6.0s
+Voiceover: "在印度，搜索不是发现的开始，是决定的结束。"
+Caption: 搜索不是开始 是结束
+Visual: The entire wall of tiles scrolls upward and away one final time, revealing behind it a wide golden-hour shot of a crowded, thriving Indian street market that blends into a modern city skyline. Commerce everywhere, alive, full of people. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - 在被搜索之前，先被看见。
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage - generated Chinese and English characters come out garbled. Keep every phone screen, label and price soft-focus and abstract. All on-screen words come from the burned-in captions only.
