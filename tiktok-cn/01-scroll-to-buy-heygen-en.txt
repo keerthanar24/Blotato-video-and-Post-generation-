@@ -1,0 +1,79 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic B-roll of modern India. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Warm, vibrant, premium documentary look. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific hero product. Show many different people, many different categories, many different Indian settings. The subject is the behaviour, not an item.
+
+SIGNATURE TRANSITION: The whole video is cut like a feed. Unless stated otherwise, every scene transitions by the entire frame sliding UPWARD out of view as the next scene slides up into place, matched to a thumb swipe. This is the film's core visual idea - the viewer is being scrolled through the story. The scrolling stops completely and permanently at Scene 8.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "They're not looking for your product."
+Caption: THEY'RE NOT / LOOKING FOR YOU
+Visual: Extreme close-up of an Indian woman's thumb flicking upward on a phone in a bright Mumbai cafe. The screen is a blur of moving colour. Warm afternoon light through a window, shallow depth of field.
+Transition out: The whole frame scrolls upward with her swipe.
+
+SCENE 2 - 2.5s
+Voiceover: "They're just scrolling."
+Caption: THEY'RE JUST / SCROLLING.
+Visual: Fast montage of four completely different people scrolling in four places - a young man on a Delhi metro, a woman in a Bengaluru office lift, a student on a Chennai rooftop at dusk, an older shopkeeper behind his counter. Every thumb moving upward in the same rhythm.
+Transition: Each person scroll-wipes upward into the next, about 0.6s each.
+
+SCENE 3 - 3.5s
+Voiceover: "But the decision happens in that scroll."
+Caption: THE DECISION / HAPPENS HERE.
+Visual: Extreme slow motion on a single thumb swipe. Screen light sweeps across a face. Time almost stops. Dust and skin detail visible.
+Transition in: Hard cut from the fast montage straight into extreme slow motion - the speed contrast is the transition.
+
+SCENE 4 - 3.5s
+Voiceover: "A short video. A review. A price."
+Caption: A VIDEO. / A REVIEW. / A PRICE.
+Visual: Three macro shots of a phone screen, all deliberately soft-focus and unreadable: a vertical video playing; a row of star ratings; a price area. About 1.2s each.
+Transition: Upward scroll-wipe between each, snapping on the beat of the line.
+
+SCENE 5 - 3.0s
+Voiceover: "They remember it. They don't search."
+Caption: REMEMBERED. / NOT SEARCHED.
+Visual: The phone screen goes dark. A face lit only by the fading glow, then darkness. She sets the phone face-down.
+Transition out: The screen dims to black; the next scene fades up from black.
+
+SCENE 6 - 3.0s
+Voiceover: "Days later, it shows up again."
+Caption: DAYS LATER. / AGAIN.
+Visual: The same feed reappearing across changing light as days pass - morning window light, midday street glare, evening lamp, blue night in bed. The same upward scroll motion in every one.
+Transition: Cross-dissolve on the scroll motion so a single swipe carries through all four light changes.
+
+SCENE 7 - 3.0s
+Voiceover: "And again."
+Caption: AND AGAIN.
+Visual: The same upward swipe repeated five times, faster each time, a different hand and a different place each time.
+Transition: Hard, fast jump cuts, accelerating.
+
+SCENE 8 - 3.5s
+Voiceover: "By the time they open the search bar..."
+Caption: THEN THEY / SEARCH.
+Visual: Extreme macro. A thumb taps. A cursor blinks in an empty field. Everything goes completely quiet and still. Warm light from the left.
+Transition: ALL motion stops abruptly. No scroll. The film holds still for the first time. From here on there is no scrolling transition.
+
+SCENE 9 - 3.0s
+Voiceover: "...they've already decided."
+Caption: ALREADY / DECIDED.
+Visual: The screen light warms and blooms across her face. A small, certain smile. She taps once, decisively.
+Transition out: The light blooms and overexposes the frame to pure white.
+
+SCENE 10 - 5.5s
+Voiceover: "Images. Reviews. Price. Ad placement. That's what decides if you're seen."
+Caption: IMAGES. REVIEWS. / PRICE. ADS.
+Visual: Out of the white bloom, a dense grid of many different marketplace-style product tiles builds across the frame - many categories, many price points, no single product favoured - until it becomes a living wall of commerce. Tiles pop in rhythmically on the beat.
+Transition: From pure white, tiles snap in on the beat.
+
+SCENE 11 - 6.0s
+Voiceover: "In India, search isn't where discovery begins. It's where it ends."
+Caption: SEARCH ISN'T WHERE / DISCOVERY BEGINS.
+Visual: The entire wall of tiles scrolls upward and away one final time, revealing behind it a wide golden-hour shot of a crowded, thriving Indian street market that blends into a modern city skyline. Commerce everywhere, alive, full of people. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - Be seen before you're searched.
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep every phone screen, label and price soft-focus and abstract. All on-screen words come from the burned-in captions only.
