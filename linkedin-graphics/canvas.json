@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",      "x": 0,    "y": 0, "w": 1200, "h": 1200, "title": "Checklist" },
+    { "file": "Statement.dc.html", "x": 1320, "y": 0, "w": 1200, "h": 1200, "title": "Statement" },
+    { "file": "Seven.dc.html",     "x": 2640, "y": 0, "w": 1200, "h": 1200, "title": "Seven" }
+  ],
+  "annotations": [
+    { "id": "brief", "x": 0, "y": -180, "w": 620, "text": "LinkedIn post graphic - 1200x1200.\nThree directions: a checklist to read, a statement to stop the scroll, a numbered index.\nAccent colour is a tweak on each board." }
+  ],
+  "launch": { "view": "canvas" }
+}
