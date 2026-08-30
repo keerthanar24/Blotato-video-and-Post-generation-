@@ -1,0 +1,75 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. The two halves of the frame are graded differently: the TOP half cool, grey, still and underpopulated; the BOTTOM half warm, golden, busy and alive. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific product or brand. Both timelines move identical plain brown cartons. The subject is the operating model, not an item.
+
+CORE VISUAL IDEA - TWO TIMELINES, ONE FRAME: Two brands enter India in the same week. The frame splits horizontally. The TOP half builds a local operation from scratch and stays unfinished. The BOTTOM half arrives into one that already runs. Both play at the same time, so the viewer sees months of difference in a single frame.
+
+SIGNATURE TRANSITION: A hard horizontal split line divides the frame from Scene 2 onward. Scene changes are marked by both halves cutting at once, on the same beat. At Scene 9 the split line travels upward and off the frame, and the bottom timeline takes over completely. That collapse is the payoff of the film.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "Two brands entered India the same week."
+Caption: SAME WEEK. / TWO BRANDS.
+Visual: One single undivided wide shot. Two identical stacks of plain brown cartons sit side by side on a loading dock at dawn. Perfectly matched, completely still, soft blue morning light.
+
+SCENE 2 - 3.0s
+Voiceover: "One decided to build everything."
+Caption: ONE BUILT / EVERYTHING.
+Visual: The frame SPLITS horizontally into two halves. TOP HALF: a bare industrial lot, empty ground, nothing built, cold grey light. BOTTOM HALF: still black, not yet revealed.
+Transition: A hard horizontal line slices the frame in two. From here the film is two timelines running at once.
+
+SCENE 3 - 3.5s
+Voiceover: "The other decided to arrive."
+Caption: THE OTHER / ARRIVED.
+Visual: The BOTTOM half lights up warm and golden: a working fulfillment floor already in full motion - pallets moving, scanners flashing, people at work. Sharp contrast against the empty lot above.
+
+SCENE 4 - 3.5s
+Voiceover: "Month one. Licenses and paperwork."
+Caption: MONTH ONE.
+Visual: TOP: one lone figure at a single desk in an empty office, stacks of folders, one desk lamp, grey light. BOTTOM: cartons already being loaded onto a truck, doors closing, engine starting.
+Transition: Both halves cut at the same instant.
+
+SCENE 5 - 3.5s
+Voiceover: "Month three. Still hiring. Still waiting."
+Caption: MONTH THREE.
+Visual: TOP: half-built racking, bare shelves, one person walking alone across a vast empty floor. BOTTOM: the same operation busier now, more trucks at more bays, continuous flow.
+
+SCENE 6 - 3.5s
+Voiceover: "Month six. The warehouse is ready."
+Caption: MONTH SIX.
+Visual: TOP: the warehouse finally finished - clean, complete, well lit, and completely empty. Not one carton in it. BOTTOM: shelves full, orders flowing out without pause.
+
+SCENE 7 - 3.5s
+Voiceover: "The other one has been selling since week two."
+Caption: SELLING SINCE / WEEK TWO.
+Visual: TOP: frozen on the empty finished warehouse, no movement at all. BOTTOM: a fast montage of deliveries arriving at doors across India - a Mumbai high-rise, a Delhi lane, a Bengaluru office, a small-town shopfront.
+
+SCENE 8 - 3.5s
+Voiceover: "Both brands were serious. Only one was operating."
+Caption: BOTH SERIOUS. / ONE OPERATING.
+Visual: Both halves hold side by side at maximum contrast. TOP: still, cold, empty, immaculate. BOTTOM: warm, moving, crowded, alive. Hold long enough for the comparison to land.
+
+SCENE 9 - 3.5s
+Voiceover: "You don't have to build India from scratch."
+Caption: DON'T BUILD IT / FROM SCRATCH.
+Visual: The TOP half slowly darkens to black, and the split line begins travelling upward as the bottom half expands to fill the frame.
+Transition: The split line moves up and off the frame. The bottom timeline takes over completely. This is the payoff - make the move deliberate and satisfying.
+
+SCENE 10 - 4.0s
+Voiceover: "Compliance, imports, listings, fulfillment, finance - already running."
+Caption: ALREADY / RUNNING.
+Visual: Full frame, no split. One continuous unbroken camera move through a live operation: documents being cleared and stamped, cartons scanned, shelves stocked, riders pulling away into the street. All in a single flowing shot.
+Transition: No cut. The only uninterrupted move in the film.
+
+SCENE 11 - 5.0s
+Voiceover: "Speed isn't moving fast. It's not starting from zero."
+Caption: NOT MOVING FAST. / NOT STARTING AT ZERO.
+Visual: Wide golden-hour shot of a thriving Indian fulfillment operation blending into a modern city skyline. Trucks pulling out, riders leaving, every bay full, everything flowing. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - Arrive in India. Don't rebuild it.
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep every document, label, sign and screen soft-focus and abstract. All on-screen words come from the burned-in captions only.
