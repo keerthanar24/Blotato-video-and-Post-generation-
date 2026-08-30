@@ -1,0 +1,607 @@
+<title>Four Films For India</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#EDEFF2; --surface:#FFF; --sunken:#E4E7EB; --ink:#14171D; --ink-2:#575F6B;
+  --ink-3:#828A96; --rule:#D2D7DE; --accent:#A85F0B; --focus:#2B6CB8;
+  --f-d:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --f-b:"Newsreader",Georgia,serif; --f-m:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0C0F14; --surface:#151920; --sunken:#10141A; --ink:#E3E7EC; --ink-2:#98A0AD;
+  --ink-3:#6C7480; --rule:#252B35; --accent:#E29A4A; --focus:#6BA6E8;}}
+:root[data-theme="dark"]{
+  --ground:#0C0F14; --surface:#151920; --sunken:#10141A; --ink:#E3E7EC; --ink-2:#98A0AD;
+  --ink-3:#6C7480; --rule:#252B35; --accent:#E29A4A; --focus:#6BA6E8;}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-b);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:56px 24px 96px}
+.eyebrow{font-family:var(--f-m);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:0}
+h1{font-family:var(--f-d);font-weight:800;font-size:clamp(36px,6vw,62px);line-height:.98;letter-spacing:-.028em;margin:18px 0 0;max-width:13ch;text-wrap:balance}
+.deck{font-size:clamp(17px,2.2vw,21px);line-height:1.45;color:var(--ink-2);max-width:56ch;margin:18px 0 0;text-wrap:pretty}
+.shared{margin-top:44px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.shared>div{background:var(--surface);padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.shared dt{font-family:var(--f-m);font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+.shared dd{margin:0;font-family:var(--f-d);font-weight:500;font-size:15.5px;line-height:1.35}
+.shared p{margin:0;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.film{margin-top:56px;border-top:1px solid var(--rule);padding-top:26px}
+.film-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:18px;align-items:start}
+.num{font-family:var(--f-m);font-size:13px;font-weight:600;color:var(--accent);padding-top:8px;font-variant-numeric:tabular-nums}
+.film-id h2{font-family:var(--f-d);font-weight:700;font-size:clamp(22px,3.2vw,31px);letter-spacing:-.02em;margin:0}
+.src{font-family:var(--f-m);font-size:11px;letter-spacing:.03em;color:var(--ink-3);margin:6px 0 0}
+.gram{display:flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid color-mix(in oklab,hsl(var(--hue) 55% 42%),transparent 60%);border-radius:3px;color:hsl(var(--hue) 55% 34%);font-family:var(--f-m);font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .gram{color:hsl(var(--hue) 62% 68%)}}
+:root[data-theme="dark"] .gram{color:hsl(var(--hue) 62% 68%)}
+.gram svg{width:19px;height:19px;flex:none}
+.log{font-size:19px;line-height:1.45;margin:16px 0 0;max-width:60ch;text-wrap:pretty}
+.gdesc{font-size:14.5px;line-height:1.5;color:var(--ink-2);margin:8px 0 0;max-width:60ch}
+.specs{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.specs span{font-family:var(--f-m);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:5px 9px}
+.pastes{margin-top:22px;display:flex;flex-direction:column;gap:14px}
+.paste{border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:var(--sunken)}
+.paste-head{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--surface);border-bottom:1px solid var(--rule)}
+.paste-head h3{font-family:var(--f-m);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin:0}
+button.copy{font-family:var(--f-m);font-size:10.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--ground);background:var(--ink);border:0;border-radius:3px;padding:6px 12px;cursor:pointer;margin-left:auto}
+button.copy:hover{background:var(--accent)}
+button.copy:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+pre{margin:0;padding:16px;max-height:300px;overflow:auto;font-family:var(--f-m);font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-word;color:var(--ink-2)}
+footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--rule);font-family:var(--f-m);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:640px){
+  .wrap{padding:38px 16px 70px}
+  .film-head{grid-template-columns:auto minmax(0,1fr);}
+  .gram{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Valuecart &nbsp;/&nbsp; TikTok campaign &nbsp;/&nbsp; HeyGen prompts</p>
+    <h1>Four Films For India</h1>
+    <p class="deck">Four 40-second vertical films for cross-border sellers, each built on a different
+      transition grammar so the set reads as a campaign rather than a template. Copy any prompt straight
+      into HeyGen.</p>
+  </header>
+
+  <div class="shared">
+    <div><dt>Runtime</dt><dd>0:40 each &middot; 11 scenes</dd><p>Roughly 75 spoken words per film, leaving about 8 seconds of silence across the scene breaks.</p></div>
+    <div><dt>Voice</dt><dd>Calm, warm, restrained</dd><p>Speed 0.95x. Explicitly not a sales or shopping-channel read &mdash; the restraint is what carries trust.</p></div>
+    <div><dt>Format</dt><dd>Voiceover over B-roll</dd><p>No avatar on screen. Burned-in captions, 2&ndash;4 words per card, clear of the TikTok interface.</p></div>
+    <div><dt>Chinese cut</dt><dd>Swap the lines, keep the film</dd><p>Set a Simplified Chinese caption font (Noto Sans SC) or captions render as empty boxes.</p></div>
+    <div><dt>Hard rule</dt><dd>No readable text in footage</dd><p>Generated screens, labels and documents come out as gibberish, CJK worst of all. Captions carry every word.</p></div>
+    <div><dt>No hero product</dt><dd>Plain cartons only</dd><p>Each film is about a behaviour or an operating model, so nothing ties the set to one category.</p></div>
+  </div>
+
+      <article class="film" style="--hue: 212">
+        <header class="film-head">
+          <span class="num">01</span>
+          <div class="film-id">
+            <h2>Scroll, Then Search</h2>
+            <p class="src">India Is Moving From Search-to-Buy to Scroll-to-Buy</p>
+          </div>
+          <div class="gram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="6" rx="1.5"/><rect x="4" y="12" width="16" height="6" rx="1.5" opacity=".45"/><path d="M12 22.5V19M12 19l-2.4 2.4M12 19l2.4 2.4" opacity=".45"/></svg>
+            <span>Feed scroll</span>
+          </div>
+        </header>
+        <p class="log">Indian shoppers meet a brand in the feed and reach the search bar only after they have already decided.</p>
+        <p class="gdesc">Every cut is an upward swipe. The scrolling stops dead at scene 8.</p>
+        <div class="specs">
+          <span>0:40</span><span>9:16 &middot; 1080&times;1920</span><span>11 scenes</span><span>Voiceover-led</span>
+        </div>
+        <div class="pastes">
+          <section class="paste">
+            <div class="paste-head">
+              <h3>HeyGen prompt &mdash; English</h3>
+              <button class="copy" type="button" data-target="en-scroll">Copy</button>
+            </div>
+            <pre id="en-scroll">Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic B-roll of modern India. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Warm, vibrant, premium documentary look. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific hero product. Show many different people, many different categories, many different Indian settings. The subject is the behaviour, not an item.
+
+SIGNATURE TRANSITION: The whole video is cut like a feed. Unless stated otherwise, every scene transitions by the entire frame sliding UPWARD out of view as the next scene slides up into place, matched to a thumb swipe. This is the film&#x27;s core visual idea - the viewer is being scrolled through the story. The scrolling stops completely and permanently at Scene 8.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: &quot;They&#x27;re not looking for your product.&quot;
+Caption: THEY&#x27;RE NOT / LOOKING FOR YOU
+Visual: Extreme close-up of an Indian woman&#x27;s thumb flicking upward on a phone in a bright Mumbai cafe. The screen is a blur of moving colour. Warm afternoon light through a window, shallow depth of field.
+Transition out: The whole frame scrolls upward with her swipe.
+
+SCENE 2 - 2.5s
+Voiceover: &quot;They&#x27;re just scrolling.&quot;
+Caption: THEY&#x27;RE JUST / SCROLLING.
+Visual: Fast montage of four completely different people scrolling in four places - a young man on a Delhi metro, a woman in a Bengaluru office lift, a student on a Chennai rooftop at dusk, an older shopkeeper behind his counter. Every thumb moving upward in the same rhythm.
+Transition: Each person scroll-wipes upward into the next, about 0.6s each.
+
+SCENE 3 - 3.5s
+Voiceover: &quot;But the decision happens in that scroll.&quot;
+Caption: THE DECISION / HAPPENS HERE.
+Visual: Extreme slow motion on a single thumb swipe. Screen light sweeps across a face. Time almost stops. Dust and skin detail visible.
+Transition in: Hard cut from the fast montage straight into extreme slow motion - the speed contrast is the transition.
+
+SCENE 4 - 3.5s
+Voiceover: &quot;A short video. A review. A price.&quot;
+Caption: A VIDEO. / A REVIEW. / A PRICE.
+Visual: Three macro shots of a phone screen, all deliberately soft-focus and unreadable: a vertical video playing; a row of star ratings; a price area. About 1.2s each.
+Transition: Upward scroll-wipe between each, snapping on the beat of the line.
+
+SCENE 5 - 3.0s
+Voiceover: &quot;They remember it. They don&#x27;t search.&quot;
+Caption: REMEMBERED. / NOT SEARCHED.
+Visual: The phone screen goes dark. A face lit only by the fading glow, then darkness. She sets the phone face-down.
+Transition out: The screen dims to black; the next scene fades up from black.
+
+SCENE 6 - 3.0s
+Voiceover: &quot;Days later, it shows up again.&quot;
+Caption: DAYS LATER. / AGAIN.
+Visual: The same feed reappearing across changing light as days pass - morning window light, midday street glare, evening lamp, blue night in bed. The same upward scroll motion in every one.
+Transition: Cross-dissolve on the scroll motion so a single swipe carries through all four light changes.
+
+SCENE 7 - 3.0s
+Voiceover: &quot;And again.&quot;
+Caption: AND AGAIN.
+Visual: The same upward swipe repeated five times, faster each time, a different hand and a different place each time.
+Transition: Hard, fast jump cuts, accelerating.
+
+SCENE 8 - 3.5s
+Voiceover: &quot;By the time they open the search bar...&quot;
+Caption: THEN THEY / SEARCH.
+Visual: Extreme macro. A thumb taps. A cursor blinks in an empty field. Everything goes completely quiet and still. Warm light from the left.
+Transition: ALL motion stops abruptly. No scroll. The film holds still for the first time. From here on there is no scrolling transition.
+
+SCENE 9 - 3.0s
+Voiceover: &quot;...they&#x27;ve already decided.&quot;
+Caption: ALREADY / DECIDED.
+Visual: The screen light warms and blooms across her face. A small, certain smile. She taps once, decisively.
+Transition out: The light blooms and overexposes the frame to pure white.
+
+SCENE 10 - 5.5s
+Voiceover: &quot;Images. Reviews. Price. Ad placement. That&#x27;s what decides if you&#x27;re seen.&quot;
+Caption: IMAGES. REVIEWS. / PRICE. ADS.
+Visual: Out of the white bloom, a dense grid of many different marketplace-style product tiles builds across the frame - many categories, many price points, no single product favoured - until it becomes a living wall of commerce. Tiles pop in rhythmically on the beat.
+Transition: From pure white, tiles snap in on the beat.
+
+SCENE 11 - 6.0s
+Voiceover: &quot;In India, search isn&#x27;t where discovery begins. It&#x27;s where it ends.&quot;
+Caption: SEARCH ISN&#x27;T WHERE / DISCOVERY BEGINS.
+Visual: The entire wall of tiles scrolls upward and away one final time, revealing behind it a wide golden-hour shot of a crowded, thriving Indian street market that blends into a modern city skyline. Commerce everywhere, alive, full of people. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - Be seen before you&#x27;re searched.
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep every phone screen, label and price soft-focus and abstract. All on-screen words come from the burned-in captions only.</pre>
+          </section>
+          <section class="paste">
+            <div class="paste-head">
+              <h3>中文配音替换表</h3>
+              <button class="copy" type="button" data-target="cn-scroll">Copy</button>
+            </div>
+            <pre id="cn-scroll">他们不是在找你的产品。
+
+他们只是在刷。
+
+但决定，就发生在这一刷之间。
+
+一个短视频。一条评价。一个价格。
+
+他们记住了，却没有去搜索。
+
+过几天，同样的东西又出现了。
+
+一次，又一次。
+
+等他们终于打开搜索框——
+
+他们早就决定好了。
+
+所以在印度，图片、评价、价格、广告位，决定你会不会被刷到。
+
+在印度，搜索不是发现的开始，是决定的结束。</pre>
+          </section>
+        </div>
+      </article>
+
+      <article class="film" style="--hue: 32">
+        <header class="film-head">
+          <span class="num">02</span>
+          <div class="film-id">
+            <h2>One Door, Then Many</h2>
+            <p class="src">India Market Entry for Global Brands</p>
+          </div>
+          <div class="gram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="1.5"/><rect x="6.5" y="6" width="11" height="15.5" rx="1" opacity=".6"/><rect x="10" y="9.5" width="4" height="12" rx=".8" opacity=".35"/></svg>
+            <span>Doorway pass</span>
+          </div>
+        </header>
+        <p class="log">India looks like a single doorway. Walk through and it is a corridor of closed ones - until they open in sequence.</p>
+        <p class="gdesc">The camera moves through a door to cut. Light runs gold, grey, gold.</p>
+        <div class="specs">
+          <span>0:40</span><span>9:16 &middot; 1080&times;1920</span><span>11 scenes</span><span>Voiceover-led</span>
+        </div>
+        <div class="pastes">
+          <section class="paste">
+            <div class="paste-head">
+              <h3>HeyGen prompt &mdash; English</h3>
+              <button class="copy" type="button" data-target="en-doors">Copy</button>
+            </div>
+            <pre id="en-doors">Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Architectural, composed, premium. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific product or brand. Show plain cartons, pallets, and operations. The subject is the process, not an item.
+
+CORE VISUAL IDEA - THE CORRIDOR OF DOORS: The film is built on one idea. India looks like a single beautiful doorway. Walk through it and you find a long corridor of many more closed doors, each one an operational requirement. At the end, they all open in sequence.
+
+SIGNATURE TRANSITION: The camera passes THROUGH a doorway to cut. Each pass wipes the frame into the next scene. Light temperature is the emotional track: warm and golden at the start, cool and institutional through the corridor, then flooding back to warm gold at the end.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: &quot;From the outside, India looks like one door.&quot;
+Caption: ONE DOOR.
+Visual: A single beautiful doorway standing alone in warm golden light, wide and symmetrical, perfectly composed. Beyond it, a soft blur of bright Indian marketplace colour and movement. Inviting, calm, cinematic.
+
+SCENE 2 - 2.5s
+Voiceover: &quot;The demand is real.&quot;
+Caption: THE DEMAND / IS REAL.
+Visual: Fast joyful glimpses through the doorway of real Indian commerce - crowded markets, delivery bikes weaving through traffic, cartons moving hand to hand, people paying by phone. Warm, alive, optimistic.
+Transition: Quick cuts on the beat, all framed through the doorway.
+
+SCENE 3 - 3.5s
+Voiceover: &quot;Then you walk through it.&quot;
+Caption: THEN YOU / WALK THROUGH.
+Visual: The camera moves forward through the doorway - and the warm light drops away behind it. We are now in a long, dim corridor. Ahead, more doors. Many more, receding into the distance.
+Transition: Passing through the door wipes the frame; the light shifts from warm gold to cool grey in the same move.
+
+SCENE 4 - 4.0s
+Voiceover: &quot;Compliance. Customs. Import documents.&quot;
+Caption: COMPLIANCE / CUSTOMS / DOCUMENTS
+Visual: Three closed doors in fast succession, one per phrase. Cool institutional light. Between them, macro glimpses of a stamp pressing down, a seal, a form being signed - all deliberately soft-focus and unreadable.
+Transition: Hard cut on each door, landing exactly on each word.
+
+SCENE 5 - 4.0s
+Voiceover: &quot;Onboarding. Landed cost. Pricing.&quot;
+Caption: ONBOARDING / LANDED COST / PRICING
+Visual: Three more closed doors, faster now. Behind narrow glass panels in each door: a dim warehouse aisle, numbers of light drifting in the dark, a shifting price board. All abstract, none readable.
+Transition: Hard cut on each, slightly faster than Scene 4.
+
+SCENE 6 - 3.5s
+Voiceover: &quot;Warehousing. Fulfillment. Payments. Reconciliation.&quot;
+Caption: WAREHOUSING / FULFILLMENT / PAYMENTS
+Visual: Four more doors, accelerating until they almost strobe. The corridor now looks endless. Subtle dolly-zoom creating vertigo - the far end pulls away as the camera pushes forward.
+Transition: Rapid cuts, accelerating to the edge of overwhelming.
+
+SCENE 7 - 3.5s
+Voiceover: &quot;Every one of them can stop your launch.&quot;
+Caption: ANY ONE / CAN STOP YOU.
+Visual: All motion stops dead. One closed door fills the entire frame. A single overhead light. Total stillness - the quietest moment in the film. Dust hanging in the air.
+Transition: Abrupt full stop. No movement at all.
+
+SCENE 8 - 3.5s
+Voiceover: &quot;India isn&#x27;t hard to enter. It&#x27;s hard to operate.&quot;
+Caption: EASY TO ENTER. / HARD TO OPERATE.
+Visual: A slow, patient push toward the closed door. A thin line of warm light appears underneath it and slowly grows brighter.
+
+SCENE 9 - 3.5s
+Voiceover: &quot;That&#x27;s the difference between a launch and a business.&quot;
+Caption: A LAUNCH / OR A BUSINESS.
+Visual: The door swings open - and every door behind it opens too, in sequence, all the way down the corridor, one after another, warm golden light flooding in from the far end.
+Transition: The chain reaction of opening doors IS the transition. Light travels toward the camera.
+
+SCENE 10 - 3.5s
+Voiceover: &quot;One partner. One accountable path through all of it.&quot;
+Caption: ONE PATH / THROUGH ALL OF IT.
+Visual: A clean unbroken dolly straight down the now fully open corridor, no cuts, gathering speed toward the light. Through glass on either side the operations are alive: barcode scanners flashing, pallets moving, people working.
+Transition: No cut at all - one continuous move. The only uncut shot in the film.
+
+SCENE 11 - 5.0s
+Voiceover: &quot;India rewards the brands that arrive ready.&quot;
+Caption: INDIA REWARDS / THE READY.
+Visual: The camera bursts out of the corridor into wide, bright Indian daylight - a thriving market blending into a modern city skyline, cartons moving, delivery riders pulling away, commerce everywhere. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - Ready for India?
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep every document, label, screen and price board soft-focus and abstract. All on-screen words come from the burned-in captions only.</pre>
+          </section>
+          <section class="paste">
+            <div class="paste-head">
+              <h3>中文配音替换表</h3>
+              <button class="copy" type="button" data-target="cn-doors">Copy</button>
+            </div>
+            <pre id="cn-doors">中文配音版 - 替换英文台词，其余画面与转场完全相同
+配音要求：普通话，女声，沉稳温和，克制，不要促销语气，语速 0.9x
+字幕字体需支持简体中文（思源黑体 / Noto Sans SC）
+
+场景 1  从外面看，印度只是一扇门。            字幕：只是一扇门
+场景 2  需求是真实的。                        字幕：需求是真实的
+场景 3  但当你真的走进去。                    字幕：走进去之后
+场景 4  合规。清关。进口单证。                字幕：合规 / 清关 / 单证
+场景 5  平台入驻。到岸成本。定价。            字幕：入驻 / 到岸成本 / 定价
+场景 6  仓储。履约。回款。对账。              字幕：仓储 / 履约 / 回款
+场景 7  任何一个环节，都能让你停下。          字幕：任何一环 都能卡住你
+场景 8  印度不难进入，难的是运营。            字幕：进入不难 运营才难
+场景 9  这就是上线和生意的区别。              字幕：上线 还是 生意
+场景 10 一个伙伴，一条负责到底的路。          字幕：一条路 走到底
+场景 11 印度，只奖励准备好的品牌。            字幕：印度只奖励 准备好的人
+
+片尾卡：VALUECART - 准备好进入印度了吗？</pre>
+          </section>
+        </div>
+      </article>
+
+      <article class="film" style="--hue: 188">
+        <header class="film-head">
+          <span class="num">03</span>
+          <div class="film-id">
+            <h2>The Signal Was Early</h2>
+            <p class="src">The Future of E-commerce Is Predictive</p>
+          </div>
+          <div class="gram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5.5 3.5 12l7.5 6.5z"/><path d="M20.5 5.5 13 12l7.5 6.5z" opacity=".45"/></svg>
+            <span>Reverse time</span>
+          </div>
+        </header>
+        <p class="log">Open on the failure, rewind through every signal that was already visible, then play forward with it caught in time.</p>
+        <p class="gdesc">Scenes 2-7 run backwards. Scene 8 freezes. Scene 9 snaps forward.</p>
+        <div class="specs">
+          <span>0:40</span><span>9:16 &middot; 1080&times;1920</span><span>11 scenes</span><span>Voiceover-led</span>
+        </div>
+        <div class="pastes">
+          <section class="paste">
+            <div class="paste-head">
+              <h3>HeyGen prompt &mdash; English</h3>
+              <button class="copy" type="button" data-target="en-rewind">Copy</button>
+            </div>
+            <pre id="en-rewind">Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands operating in India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Cool and clinical at the start, warming through to golden at the end. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific product or brand. Show plain cartons, pallets, shelves, and light. The subject is the operation, not an item.
+
+CORE VISUAL IDEA - THE FILM RUNS BACKWARDS: It opens on the failure, then rewinds through every early signal that was already visible, stops dead, and finally plays forward again with the signal caught in time.
+
+SIGNATURE TRANSITION: From Scene 2 to Scene 7 everything moves in REVERSE - objects un-stack, vehicles reverse, dust lifts back up, motion runs the wrong way. Scene 8 freezes completely. Scene 9 snaps back to normal forward motion, and that direction reversal is the biggest transition in the film. If true reverse footage is not available, achieve the effect by ordering the shots backwards through time and using right-to-left reverse wipes between them.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: &quot;This is the moment it costs you.&quot;
+Caption: TOO LATE.
+Visual: An empty warehouse bay. A clean rectangle of pale floor where a pallet stood, with a fine outline of dust around its edge. Cold overhead light. Absolutely still, absolutely silent.
+
+SCENE 2 - 3.0s
+Voiceover: &quot;But it didn&#x27;t start here.&quot;
+Caption: IT DIDN&#x27;T / START HERE.
+Visual: The image begins moving BACKWARDS. Dust lifts off the floor, a loaded pallet slides back into the empty bay, a forklift reverses out of frame.
+Transition: Reverse motion begins here and runs continuously until Scene 8.
+
+SCENE 3 - 3.5s
+Voiceover: &quot;Three weeks earlier, the signal was already there.&quot;
+Caption: THREE WEEKS / EARLIER.
+Visual: Still running backwards, faster: cartons fly up onto shelves, a scanner light un-flashes, a delivery van reverses out of a loading yard. Heavy motion blur, time peeling back.
+
+SCENE 4 - 3.5s
+Voiceover: &quot;A region ordering faster than the others.&quot;
+Caption: ONE REGION / MOVING FASTER
+Visual: Still backwards. A large grid of soft light panels on a dark wall, like regions of a country rendered in light. One panel pulses brighter than all the rest. Abstract, atmospheric, nothing readable.
+
+SCENE 5 - 3.5s
+Voiceover: &quot;A listing quietly losing its position.&quot;
+Caption: A LISTING / SLIPPING.
+Visual: Still backwards. A tall grid of glowing tiles on a dark wall. One tile drifts slowly downward through the grid, dimming as it goes. Quiet, easy to miss.
+
+SCENE 6 - 3.5s
+Voiceover: &quot;Ad spend drifting toward the wrong shelf.&quot;
+Caption: SPEND GOING / THE WRONG WAY.
+Visual: Still backwards. Streams of light flowing through a dark space, pouring into one bright node - but running in reverse, revealing they had been feeding a dead end.
+
+SCENE 7 - 3.5s
+Voiceover: &quot;Returns clustering in one size.&quot;
+Caption: RETURNS / CLUSTERING.
+Visual: Still backwards. Cartons fly back out of a returns pile, un-stacking themselves, cut tape resealing itself, the pile shrinking away to nothing.
+
+SCENE 8 - 3.5s
+Voiceover: &quot;None of it was hidden. It was just early.&quot;
+Caption: NOT HIDDEN. / JUST EARLY.
+Visual: The rewind STOPS dead on a single frozen frame - one small pulsing light in a wide, dark operations space. Total stillness. The quietest moment in the film. Dust suspended in the air, unmoving.
+Transition: All reverse motion halts. Complete freeze.
+
+SCENE 9 - 3.5s
+Voiceover: &quot;Predictive isn&#x27;t knowing everything.&quot;
+Caption: NOT KNOWING / EVERYTHING.
+Visual: Time snaps FORWARD again at normal speed. The one signal light brightens. A hand reaches into frame and touches it.
+Transition: A hard snap from frozen to forward motion. The direction reversal is the largest transition in the film - make it land.
+
+SCENE 10 - 4.0s
+Voiceover: &quot;It&#x27;s seeing one signal early enough to act.&quot;
+Caption: SEEING IT / EARLY ENOUGH.
+Visual: Forward motion now. The warehouse comes alive - a loaded pallet moves INTO the bay before it can empty, stock arriving ahead of demand, people working with purpose, scanners flashing. Cool light warming up.
+
+SCENE 11 - 5.0s
+Voiceover: &quot;Predictive isn&#x27;t faster reporting. It&#x27;s earlier decisions.&quot;
+Caption: NOT FASTER REPORTS. / EARLIER DECISIONS.
+Visual: Wide shot of a fully stocked, warm, fully moving Indian fulfillment operation at golden hour. Everything flowing, every bay full, nothing empty. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - See it early. Act in time.
+
+IMPORTANT: Do not render any readable text, numbers, charts, dashboards, user interface, logos or watermarks inside the generated footage. All data is shown as abstract light, grids and panels only. Every on-screen word comes from the burned-in captions.</pre>
+          </section>
+          <section class="paste">
+            <div class="paste-head">
+              <h3>中文配音替换表</h3>
+              <button class="copy" type="button" data-target="cn-rewind">Copy</button>
+            </div>
+            <pre id="cn-rewind">中文配音版 - 替换英文台词，其余画面与转场完全相同
+配音要求：普通话，女声，沉稳温和，克制，不要促销语气，语速 0.9x
+字幕字体需支持简体中文（思源黑体 / Noto Sans SC）
+
+场景 1  这一刻，你已经在亏钱了。                字幕：已经太晚了
+场景 2  但它不是从这里开始的。                  字幕：不是从这里开始
+场景 3  三周前，信号就已经出现了。              字幕：三周前 信号就在
+场景 4  某个地区，卖得比别处快。                字幕：一个地区 卖得更快
+场景 5  某个链接，排名在悄悄下滑。              字幕：排名 在悄悄下滑
+场景 6  广告预算，流向了错误的位置。            字幕：预算 流错了方向
+场景 7  退货，集中在同一个尺码。                字幕：退货 集中在一处
+场景 8  它们从来没被藏起来，只是来得太早。      字幕：不是看不见 只是太早
+场景 9  预测，不是知道一切。                    字幕：不是知道一切
+场景 10 而是足够早地看见那一个信号。            字幕：早一步 看见信号
+场景 11 预测不是更快的报表，是更早的决策。      字幕：不是更快报表 是更早决策
+
+片尾卡：VALUECART - 早一步看见，才来得及行动。</pre>
+          </section>
+        </div>
+      </article>
+
+      <article class="film" style="--hue: 146">
+        <header class="film-head">
+          <span class="num">04</span>
+          <div class="film-id">
+            <h2>Build It Or Arrive</h2>
+            <p class="src">Written to complete the set</p>
+          </div>
+          <div class="gram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="1.5"/><path d="M2.5 12h19" stroke-width="2"/><rect x="5" y="14.5" width="14" height="5" rx="1" fill="currentColor" stroke="none" opacity=".5"/></svg>
+            <span>Split timeline</span>
+          </div>
+        </header>
+        <p class="log">Two brands enter India the same week. One builds from scratch, one arrives into an operation already running.</p>
+        <p class="gdesc">A horizontal split races both timelines at once, then collapses to one.</p>
+        <div class="specs">
+          <span>0:40</span><span>9:16 &middot; 1080&times;1920</span><span>11 scenes</span><span>Voiceover-led</span>
+        </div>
+        <div class="pastes">
+          <section class="paste">
+            <div class="paste-head">
+              <h3>HeyGen prompt &mdash; English</h3>
+              <button class="copy" type="button" data-target="en-split">Copy</button>
+            </div>
+            <pre id="en-split">Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. The two halves of the frame are graded differently: the TOP half cool, grey, still and underpopulated; the BOTTOM half warm, golden, busy and alive. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific product or brand. Both timelines move identical plain brown cartons. The subject is the operating model, not an item.
+
+CORE VISUAL IDEA - TWO TIMELINES, ONE FRAME: Two brands enter India in the same week. The frame splits horizontally. The TOP half builds a local operation from scratch and stays unfinished. The BOTTOM half arrives into one that already runs. Both play at the same time, so the viewer sees months of difference in a single frame.
+
+SIGNATURE TRANSITION: A hard horizontal split line divides the frame from Scene 2 onward. Scene changes are marked by both halves cutting at once, on the same beat. At Scene 9 the split line travels upward and off the frame, and the bottom timeline takes over completely. That collapse is the payoff of the film.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: &quot;Two brands entered India the same week.&quot;
+Caption: SAME WEEK. / TWO BRANDS.
+Visual: One single undivided wide shot. Two identical stacks of plain brown cartons sit side by side on a loading dock at dawn. Perfectly matched, completely still, soft blue morning light.
+
+SCENE 2 - 3.0s
+Voiceover: &quot;One decided to build everything.&quot;
+Caption: ONE BUILT / EVERYTHING.
+Visual: The frame SPLITS horizontally into two halves. TOP HALF: a bare industrial lot, empty ground, nothing built, cold grey light. BOTTOM HALF: still black, not yet revealed.
+Transition: A hard horizontal line slices the frame in two. From here the film is two timelines running at once.
+
+SCENE 3 - 3.5s
+Voiceover: &quot;The other decided to arrive.&quot;
+Caption: THE OTHER / ARRIVED.
+Visual: The BOTTOM half lights up warm and golden: a working fulfillment floor already in full motion - pallets moving, scanners flashing, people at work. Sharp contrast against the empty lot above.
+
+SCENE 4 - 3.5s
+Voiceover: &quot;Month one. Licenses and paperwork.&quot;
+Caption: MONTH ONE.
+Visual: TOP: one lone figure at a single desk in an empty office, stacks of folders, one desk lamp, grey light. BOTTOM: cartons already being loaded onto a truck, doors closing, engine starting.
+Transition: Both halves cut at the same instant.
+
+SCENE 5 - 3.5s
+Voiceover: &quot;Month three. Still hiring. Still waiting.&quot;
+Caption: MONTH THREE.
+Visual: TOP: half-built racking, bare shelves, one person walking alone across a vast empty floor. BOTTOM: the same operation busier now, more trucks at more bays, continuous flow.
+
+SCENE 6 - 3.5s
+Voiceover: &quot;Month six. The warehouse is ready.&quot;
+Caption: MONTH SIX.
+Visual: TOP: the warehouse finally finished - clean, complete, well lit, and completely empty. Not one carton in it. BOTTOM: shelves full, orders flowing out without pause.
+
+SCENE 7 - 3.5s
+Voiceover: &quot;The other one has been selling since week two.&quot;
+Caption: SELLING SINCE / WEEK TWO.
+Visual: TOP: frozen on the empty finished warehouse, no movement at all. BOTTOM: a fast montage of deliveries arriving at doors across India - a Mumbai high-rise, a Delhi lane, a Bengaluru office, a small-town shopfront.
+
+SCENE 8 - 3.5s
+Voiceover: &quot;Both brands were serious. Only one was operating.&quot;
+Caption: BOTH SERIOUS. / ONE OPERATING.
+Visual: Both halves hold side by side at maximum contrast. TOP: still, cold, empty, immaculate. BOTTOM: warm, moving, crowded, alive. Hold long enough for the comparison to land.
+
+SCENE 9 - 3.5s
+Voiceover: &quot;You don&#x27;t have to build India from scratch.&quot;
+Caption: DON&#x27;T BUILD IT / FROM SCRATCH.
+Visual: The TOP half slowly darkens to black, and the split line begins travelling upward as the bottom half expands to fill the frame.
+Transition: The split line moves up and off the frame. The bottom timeline takes over completely. This is the payoff - make the move deliberate and satisfying.
+
+SCENE 10 - 4.0s
+Voiceover: &quot;Compliance, imports, listings, fulfillment, finance - already running.&quot;
+Caption: ALREADY / RUNNING.
+Visual: Full frame, no split. One continuous unbroken camera move through a live operation: documents being cleared and stamped, cartons scanned, shelves stocked, riders pulling away into the street. All in a single flowing shot.
+Transition: No cut. The only uninterrupted move in the film.
+
+SCENE 11 - 5.0s
+Voiceover: &quot;Speed isn&#x27;t moving fast. It&#x27;s not starting from zero.&quot;
+Caption: NOT MOVING FAST. / NOT STARTING AT ZERO.
+Visual: Wide golden-hour shot of a thriving Indian fulfillment operation blending into a modern city skyline. Trucks pulling out, riders leaving, every bay full, everything flowing. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - Arrive in India. Don&#x27;t rebuild it.
+
+IMPORTANT: Do not render any readable text, user interface, logos or watermarks inside the generated footage. Keep every document, label, sign and screen soft-focus and abstract. All on-screen words come from the burned-in captions only.</pre>
+          </section>
+          <section class="paste">
+            <div class="paste-head">
+              <h3>中文配音替换表</h3>
+              <button class="copy" type="button" data-target="cn-split">Copy</button>
+            </div>
+            <pre id="cn-split">中文配音版 - 替换英文台词，其余画面与转场完全相同
+配音要求：普通话，女声，沉稳温和，克制，不要促销语气，语速 0.9x
+字幕字体需支持简体中文（思源黑体 / Noto Sans SC）
+
+场景 1  同一周，两个品牌进入印度。              字幕：同一周 两个品牌
+场景 2  一个，决定什么都自己建。                字幕：一个 全部自建
+场景 3  另一个，直接开始跑。                    字幕：另一个 直接开跑
+场景 4  第一个月。证照和文件。                  字幕：第一个月
+场景 5  第三个月。还在招人，还在等。            字幕：第三个月
+场景 6  第六个月。仓库终于建好了。              字幕：第六个月
+场景 7  而另一个，第二周就在出单了。            字幕：第二周 就在出单
+场景 8  两个都很认真，但只有一个在运营。        字幕：都认真 但只有一个在跑
+场景 9  你不需要从零开始建印度。                字幕：不必 从零开始
+场景 10 合规、进口、上架、履约、财务，已经在跑。 字幕：全部 已经在跑
+场景 11 快，不是跑得快，而是不用从零开始。      字幕：不是跑得快 是不用从零
+
+片尾卡：VALUECART - 直接进入印度，不用重建印度。</pre>
+          </section>
+        </div>
+      </article>
+  <footer><span>Valuecart</span><span>Four films</span><span>HeyGen &middot; TikTok 9:16</span></footer>
+</div>
+<script>
+document.querySelectorAll("button.copy").forEach(function(btn){
+  btn.addEventListener("click", function(){
+    var el = document.getElementById(btn.dataset.target);
+    if(!el) return;
+    var done = function(ok){
+      var was = ok ? "Copied" : "Failed";
+      btn.textContent = was;
+      setTimeout(function(){ btn.textContent = "Copy"; }, 1700);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(el.textContent).then(function(){done(true);},function(){done(false);});
+    } else { done(false); }
+  });
+});
+</script>
