@@ -1,0 +1,74 @@
+Create a 45-second vertical 9:16 short video (1080x1920) for Instagram Reels, TikTok and LinkedIn - an Independence Day tribute film for Valuecart.
+
+VOICE: English, female, warm, proud and genuinely uplifted. Speed 1.0x - a natural, moving pace, NOT slow or ceremonial and NOT a booming announcer. Sincere, like someone who means it.
+
+MUSIC: One soft, simple instrumental bed under the entire film. Gentle acoustic guitar or piano with light strings and a touch of bansuri flute. No vocals, no heavy percussion, no dramatic patriotic anthem. It should stay quiet and warm, rise very gently from Scene 8, and resolve softly at the end. Duck the music under every voiceover line so the words always sit on top.
+
+STYLE: Photorealistic cinematic documentary. Shallow depth of field, natural light, fine film grain, warm golden tones. Real people, real work, real India. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, clean bold sans-serif, 2-4 words per card, middle-lower third, clear of the platform interface.
+
+CORE VISUAL IDEA - ONE SUNRISE: The whole film is a single continuous sunrise across India, from first light in Scene 1 to full bright morning in Scene 11. Every scene sits slightly later in that sunrise than the one before it. Light is the story.
+
+SIGNATURE TRANSITION: Soft light-led dissolves. Each scene dissolves into the next through a wash of warming light rather than a hard cut - unhurried and gentle throughout, matching the music. The one exception is Scene 8, which arrives as a bloom of colour after the deliberately cool, still Scene 7.
+
+FLAG TREATMENT: Show the tricolour mainly as COLOUR AND LIGHT - saffron, white and green in skies, fabric, festival colour and reflected light. Where a flag appears, keep it distant, respectful and gently moving, never a hard close-up of the Ashoka Chakra. Treat the flag with dignity at all times.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 4.0s
+Voiceover: "One morning in August, a country began writing its own story."
+Caption: 15 AUGUST
+Visual: First light over a quiet Indian landscape. Low mist over fields, a distant town just beginning to wake, the first warm gold breaking a deep blue sky. Very still, very wide.
+
+SCENE 2 - 3.5s
+Voiceover: "It started with freedom."
+Caption: IT BEGAN / WITH FREEDOM.
+Visual: Sunrise reaching a village school. A small flag-hoisting seen from a respectful distance, children standing in a neat line, soft morning light across the courtyard. Warm, quiet, dignified.
+
+SCENE 3 - 4.0s
+Voiceover: "It grew into ambition."
+Caption: IT GREW INTO / AMBITION.
+Visual: The light travels across the country in warm quick cuts - a farmer already at work, a weaver's hands at a loom, sparks from a welder, a young engineer lit by a screen. Each held just long enough to feel real.
+
+SCENE 4 - 4.0s
+Voiceover: "Today, that same energy is everywhere."
+Caption: THE SAME ENERGY.
+Visual: Morning India in full motion - shutters rolling up on market streets, a train crossing a bridge, delivery riders pulling away, a port crane swinging, a busy office floor filling up. Layered and alive.
+
+SCENE 5 - 4.0s
+Voiceover: "In small shops and in global businesses."
+Caption: SMALL SHOPS. / GLOBAL BUSINESS.
+Visual: A matched pair of shots. First: a neighbourhood shop owner carefully arranging goods on his shelf at dawn. Match cut to: a modern fulfillment floor where cartons are being arranged on racking. The same gesture at two completely different scales.
+
+SCENE 6 - 4.0s
+Voiceover: "In every hand that builds something."
+Caption: EVERY HAND / THAT BUILDS.
+Visual: Close-ups of working hands - a potter at the wheel, a tailor guiding cloth, a technician with fine tools, a packer sealing a carton, a mother placing a book into a child's hands. Tactile, warm, unhurried.
+
+SCENE 7 - 4.0s
+Voiceover: "The world once came here to take."
+Caption: ONCE, THEY / CAME TO TAKE.
+Visual: Deliberately restrained and cool. An old colonial-era stone archway or dock building, empty and completely still, in flat desaturated pre-dawn light. The only cold moment in the film. Hold it.
+
+SCENE 8 - 4.5s
+Voiceover: "Now it comes to build alongside her."
+Caption: NOW THEY COME / TO BUILD.
+Visual: Warmth and colour flood back in a bloom of light. A similar archway or gateway, now full of modern life - people moving through, goods being carried, saffron and green light spilling across the stone. The reversal of Scene 7.
+Transition: A bloom of warm colour, the only strong transition in the film. Let it feel like relief.
+
+SCENE 9 - 4.0s
+Voiceover: "That's what independence became."
+Caption: THAT'S WHAT / INDEPENDENCE BECAME.
+Visual: Wide golden-hour shot holding an old town in the foreground and a modern Indian skyline behind it - both in one frame, both lit by the same sun.
+
+SCENE 10 - 4.5s
+Voiceover: "From all of us at Valuecart - happy Independence Day."
+Caption: HAPPY / INDEPENDENCE DAY
+Visual: A wide dawn sky over India with soft saffron, white and green light drifting slowly across it. Gentle, spacious, dignified. Nothing hurried.
+
+SCENE 11 - 4.5s
+Voiceover: "Jai Hind."
+Caption: JAI HIND.
+Visual: The sun fully up. A calm, bright, wide shot of India in full morning - people moving, streets alive, the day properly begun. Slow push-in, held to the end.
+End card fades up over the final 2 seconds: VALUECART
+
+IMPORTANT: Do not render any readable text, signage, user interface, logos or watermarks inside the generated footage. Keep any flag distant and dignified and never render a detailed Ashoka Chakra. All on-screen words come from the burned-in captions only.
