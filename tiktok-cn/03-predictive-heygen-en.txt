@@ -1,0 +1,74 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands operating in India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, natural light, fine film grain, anamorphic bokeh. Cool and clinical at the start, warming through to golden at the end. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: Never feature one specific product or brand. Show plain cartons, pallets, shelves, and light. The subject is the operation, not an item.
+
+CORE VISUAL IDEA - THE FILM RUNS BACKWARDS: It opens on the failure, then rewinds through every early signal that was already visible, stops dead, and finally plays forward again with the signal caught in time.
+
+SIGNATURE TRANSITION: From Scene 2 to Scene 7 everything moves in REVERSE - objects un-stack, vehicles reverse, dust lifts back up, motion runs the wrong way. Scene 8 freezes completely. Scene 9 snaps back to normal forward motion, and that direction reversal is the biggest transition in the film. If true reverse footage is not available, achieve the effect by ordering the shots backwards through time and using right-to-left reverse wipes between them.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "This is the moment it costs you."
+Caption: TOO LATE.
+Visual: An empty warehouse bay. A clean rectangle of pale floor where a pallet stood, with a fine outline of dust around its edge. Cold overhead light. Absolutely still, absolutely silent.
+
+SCENE 2 - 3.0s
+Voiceover: "But it didn't start here."
+Caption: IT DIDN'T / START HERE.
+Visual: The image begins moving BACKWARDS. Dust lifts off the floor, a loaded pallet slides back into the empty bay, a forklift reverses out of frame.
+Transition: Reverse motion begins here and runs continuously until Scene 8.
+
+SCENE 3 - 3.5s
+Voiceover: "Three weeks earlier, the signal was already there."
+Caption: THREE WEEKS / EARLIER.
+Visual: Still running backwards, faster: cartons fly up onto shelves, a scanner light un-flashes, a delivery van reverses out of a loading yard. Heavy motion blur, time peeling back.
+
+SCENE 4 - 3.5s
+Voiceover: "A region ordering faster than the others."
+Caption: ONE REGION / MOVING FASTER
+Visual: Still backwards. A large grid of soft light panels on a dark wall, like regions of a country rendered in light. One panel pulses brighter than all the rest. Abstract, atmospheric, nothing readable.
+
+SCENE 5 - 3.5s
+Voiceover: "A listing quietly losing its position."
+Caption: A LISTING / SLIPPING.
+Visual: Still backwards. A tall grid of glowing tiles on a dark wall. One tile drifts slowly downward through the grid, dimming as it goes. Quiet, easy to miss.
+
+SCENE 6 - 3.5s
+Voiceover: "Ad spend drifting toward the wrong shelf."
+Caption: SPEND GOING / THE WRONG WAY.
+Visual: Still backwards. Streams of light flowing through a dark space, pouring into one bright node - but running in reverse, revealing they had been feeding a dead end.
+
+SCENE 7 - 3.5s
+Voiceover: "Returns clustering in one size."
+Caption: RETURNS / CLUSTERING.
+Visual: Still backwards. Cartons fly back out of a returns pile, un-stacking themselves, cut tape resealing itself, the pile shrinking away to nothing.
+
+SCENE 8 - 3.5s
+Voiceover: "None of it was hidden. It was just early."
+Caption: NOT HIDDEN. / JUST EARLY.
+Visual: The rewind STOPS dead on a single frozen frame - one small pulsing light in a wide, dark operations space. Total stillness. The quietest moment in the film. Dust suspended in the air, unmoving.
+Transition: All reverse motion halts. Complete freeze.
+
+SCENE 9 - 3.5s
+Voiceover: "Predictive isn't knowing everything."
+Caption: NOT KNOWING / EVERYTHING.
+Visual: Time snaps FORWARD again at normal speed. The one signal light brightens. A hand reaches into frame and touches it.
+Transition: A hard snap from frozen to forward motion. The direction reversal is the largest transition in the film - make it land.
+
+SCENE 10 - 4.0s
+Voiceover: "It's seeing one signal early enough to act."
+Caption: SEEING IT / EARLY ENOUGH.
+Visual: Forward motion now. The warehouse comes alive - a loaded pallet moves INTO the bay before it can empty, stock arriving ahead of demand, people working with purpose, scanners flashing. Cool light warming up.
+
+SCENE 11 - 5.0s
+Voiceover: "Predictive isn't faster reporting. It's earlier decisions."
+Caption: NOT FASTER REPORTS. / EARLIER DECISIONS.
+Visual: Wide shot of a fully stocked, warm, fully moving Indian fulfillment operation at golden hour. Everything flowing, every bay full, nothing empty. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - See it early. Act in time.
+
+IMPORTANT: Do not render any readable text, numbers, charts, dashboards, user interface, logos or watermarks inside the generated footage. All data is shown as abstract light, grids and panels only. Every on-screen word comes from the burned-in captions.
