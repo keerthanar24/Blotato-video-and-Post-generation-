@@ -1,0 +1,72 @@
+Create a 40-second vertical 9:16 short video (1080x1920) for TikTok, aimed at cross-border e-commerce sellers and global brands considering India.
+
+VOICE: English, female, calm, warm and restrained. Low-key and trustworthy, NOT an energetic sales or shopping-channel tone. Speed 0.95x. Let the pauses between scenes breathe.
+
+STYLE: Photorealistic cinematic. Shallow depth of field, fine film grain, anamorphic bokeh. The film begins cold, indirect and blue-grey, and ends fully warm and golden. No avatar and no presenter on screen - voiceover only over footage. Burned-in captions, all caps, bold sans-serif, 2-4 words per card, placed in the middle-lower third, clear of the TikTok interface.
+
+NO SINGLE PRODUCT: The subject is one plain shrink-wrapped pallet of unbranded brown cartons. Never show a specific product or brand.
+
+CORE VISUAL IDEA - THE THING THAT NEVER MOVES: One pallet stands perfectly still and razor sharp while the entire world around it runs as streaked long-exposure motion. Above it hang seven pendant lamps, all dark. Each question answered lights one lamp. Only when all seven are lit does the pallet finally move.
+
+SIGNATURE TRANSITION: Speed is the transition. The world runs at high-speed time-lapse with light-trail motion blur while the pallet stays locked at normal speed and in perfect focus. The camera moves in one slow continuous orbit around the pallet from Scene 4 to Scene 8. There are no whip cuts and no wipes in this film - it is built on stillness, and the only real movement is saved for Scene 10.
+
+Build exactly 11 scenes. Use the voiceover lines VERBATIM.
+
+SCENE 1 - 3.5s
+Voiceover: "This shipment has been ready for months."
+Caption: READY. / STILL WAITING.
+Visual: A single shrink-wrapped pallet of plain brown cartons, razor sharp and completely still, in a warehouse where everything else is streaked long-exposure motion - forklifts as light trails, people as soft blurs. The one still thing in a moving world. Cold blue-grey light.
+
+SCENE 2 - 3.0s
+Voiceover: "Nothing is wrong with the demand."
+Caption: DEMAND / ISN'T THE PROBLEM.
+Visual: The time-lapse around it accelerates hard - Indian commerce at high speed, street markets, delivery riders as light streaks, trucks, shopfronts glowing, day cycling into night and back. The pallet stays sharp, still and untouched in the centre of all of it.
+
+SCENE 3 - 3.5s
+Voiceover: "The brand isn't hesitating about India."
+Caption: NOT HESITATING / ABOUT INDIA.
+Visual: The time-lapse slows down to normal speed. The blurred world resolves into focus around the still pallet. Everything goes quiet.
+Transition: A speed ramp, not a cut. The world decelerates into stillness.
+
+SCENE 4 - 3.5s
+Voiceover: "It's hesitating about seven questions."
+Caption: SEVEN QUESTIONS.
+Visual: The camera begins a slow, continuous orbit around the pallet. Above it, seven pendant lamps hang in a wide ring - every one of them dark. The only light in the space is cold and indirect.
+
+SCENE 5 - 3.5s
+Voiceover: "Who handles compliance? How does customs clear?"
+Caption: COMPLIANCE / CUSTOMS
+Visual: The orbit continues. One lamp flicks on, then a second, dropping two warm pools of light onto the pallet. Brief macro cutaways: a stamp pressing down, a seal - both soft-focus and unreadable.
+
+SCENE 6 - 3.5s
+Voiceover: "Which marketplace first? What's the landed cost?"
+Caption: MARKETPLACE / LANDED COST
+Visual: Orbit continues. Third and fourth lamps light. More warmth reaches the pallet. Cutaways: a dark wall of softly glowing tiles, numbers rendered as drifting light. Abstract, nothing readable.
+
+SCENE 7 - 3.5s
+Voiceover: "Where does inventory sit? Who handles returns and payments?"
+Caption: INVENTORY / RETURNS / PAYMENTS
+Visual: Orbit continues. Fifth and sixth lamps light. The ring is nearly complete. Cutaways: racking stretching away into the dark, cartons moving, streams of light flowing.
+
+SCENE 8 - 3.5s
+Voiceover: "And who owns it, every single day?"
+Caption: WHO OWNS IT / EVERY DAY?
+Visual: The orbit stops dead. One lamp is still dark - the seventh, hanging directly above the pallet. Hold on it. The hardest question is the one still unanswered. Total stillness.
+
+SCENE 9 - 3.5s
+Voiceover: "These aren't reasons to avoid India."
+Caption: NOT REASONS / TO AVOID.
+Visual: The seventh lamp flickers once, then comes on strong. The full ring is lit. The pallet is completely, warmly illuminated for the first time in the film.
+
+SCENE 10 - 4.0s
+Voiceover: "They're the reasons to enter with a structure."
+Caption: ENTER WITH / A STRUCTURE.
+Visual: The pallet finally MOVES. A forklift lifts it cleanly and the camera follows it out into a fully lit, fully running operation - scanners flashing, shelves stocked, people working. This is the first movement of the subject in the entire film. Make it feel like a release.
+
+SCENE 11 - 5.0s
+Voiceover: "India is ready. The question is whether you are."
+Caption: INDIA IS READY. / ARE YOU?
+Visual: Wide golden-hour shot. The pallet joins a steady stream of others flowing out through open loading doors into bright Indian daylight, trucks pulling away, a city skyline beyond. Slow push-in, held.
+End card fades up over the final 2 seconds: VALUECART - What's stopping your brand from entering India?
+
+IMPORTANT: Do not render any readable text, numbers, user interface, logos or watermarks inside the generated footage. Keep every document, label, tile and screen soft-focus and abstract. All on-screen words come from the burned-in captions only.
