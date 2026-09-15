@@ -354,6 +354,51 @@ Unicharm, Himalaya, Johnson & Johnson, Nivea.
 >
 > #Milestone #Growth #Ecommerce #FMCG
 
+**Post 15 — Listed everywhere vs available everywhere**
+
+> Your brand is listed everywhere.
+>
+> But is it available everywhere?
+>
+> Those aren't the same sentence. Most brands find that out the expensive way.
+>
+> A listing says your product exists. Availability says a customer in Siliguri
+> can actually receive it — this week, at the price you set.
+>
+> Between those two facts sit three quiet failures:
+>
+> → **Listed, but out of stock.** The page is live. The Buy Box isn't yours. A
+> competitor's product just became the default answer to your brand name.
+>
+> → **Listed, but not serviceable.** The customer finds you, enters their pin
+> code, and the estimate reads seven days. They don't wait. They substitute.
+>
+> → **Listed, but in the wrong warehouse.** Your inventory sits 1,800 km from
+> the demand. Your ad spend created the intent. Someone else's supply chain
+> captured it.
+>
+> None of these show up in a listing audit.
+>
+> All of them show up in your revenue.
+>
+> This is the whole reason we built the way we did — 125+ fulfilment centres,
+> 19,000+ pin codes, 2,800+ brands.
+>
+> Not because scale is a vanity metric. Because *available* is a promise you can
+> only keep by having inventory in the right place **before** the customer
+> searches.
+>
+> Visibility gets you found.
+> Availability gets you bought.
+>
+> #Ecommerce #FMCG #SupplyChain #Retail #BrandStrategy
+
+*Hashtag note: these five are established industry tags. LinkedIn deprecated
+hashtag follower counts and de-emphasised hashtag-following around 2023–24, so
+tags now mainly aid topical relevance and search rather than distribution.
+Swaps: `#ConsumerGoods` / `#CPG` for brand-side readers, `#Logistics` /
+`#Fulfilment` for supply-chain reach, `#D2C` for founders.*
+
 ---
 
 ## 4. Reusable hook bank
@@ -369,6 +414,8 @@ Swap these into any post:
 - "The most expensive problem in Indian e-commerce isn't ___. It's ___."
 - "Operations is the product."
 - "A question for category managers:"
+- "Your brand is listed everywhere. But is it available everywhere?"
+- "Visibility gets you found. Availability gets you bought."
 
 ## 5. CTA bank
 
